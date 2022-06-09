@@ -34,17 +34,6 @@ while:
     blt $t0, 5 , while
 
 
-while2:
-
-    la $a0, 0($t1)
-    li $v0, 4
-    syscall
-
-    
-
-
-     blt $t0, 5 , while2
-
 
 
 
